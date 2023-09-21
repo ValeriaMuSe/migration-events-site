@@ -33,6 +33,10 @@ img {
   width: 100%;
 }
 
+main {
+  display: flex;
+}
+
 .container {
   max-width: 1100px;
   width: 80%;

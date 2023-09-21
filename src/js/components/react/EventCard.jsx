@@ -4,17 +4,21 @@ const EventCard = (props) => {
     const { image, title, date, address, city, state, price } = props;
   
     return (
-      <div>
+      <div className='gallery '>
+        <div className='gallery__card '>
         <img src={image} />
-        <div class="gallery__text">
-          <div class="event__info">
+        <div className="gallery__text">
+          <div className="event__info">
             <h3>{title}</h3>
-            <p class="date">{date}.</p>
-            <p>{address} • {city}, {state}.</p>
+            <p className="date">{date}.</p>
+            <p>{address}  {city}, {state}.</p>
             <strong>{price}</strong>
           </div>
+          </div>
         </div>
+       
       </div>
+      
     );
   }
   
