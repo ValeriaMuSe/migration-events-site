@@ -55,7 +55,7 @@ const card = (
 	{ interaction, id, category },
 ) => {
 	return `
-    <img src="${image}" alt="${title}"/>
+    <img class="image__size" src="${image}" alt="${title}"/>
     <div class="gallery__text">
       <div class="event__info">
         <h3>${title}</h3>
