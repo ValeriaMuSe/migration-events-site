@@ -1,11 +1,10 @@
 import { Tabs } from './Tabs'
-import '../../../styles/css/styles.css'
 
 const Header = () => {
   return (
-    <header id="header" class="header">
-      <a href="./account.html" id="my-account">My account &rightarrow;</a>
-      <div id="tabs" className="headerTabs">
+    <header id="header" className="header">
+      <a href="./account.html" id="my-account">My account</a>
+      <div id="tabs" className="header__tabs">
         <Tabs />
       </div>
     </header>
