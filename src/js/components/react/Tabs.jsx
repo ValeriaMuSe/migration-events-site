@@ -1,6 +1,6 @@
 const Tabs = () => {
   return (
-    <nav>
+    <nav style={{display: "flex", justifyContent: "space-evenly" }}>
       <button className="active">Music</button>
       <button>Sports</button>
       <button>Business</button>
