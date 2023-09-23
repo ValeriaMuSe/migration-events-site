@@ -55,7 +55,7 @@ const MainContent = () => {
     <main id="main-gallery" className="main-gallery main-container">
       {
       response.map((response) => {
-      return <EventCard key={response.id} title={response.title} image={response.image} location={response.location} price={response.price} />
+      return <EventCard key={response.id} title={response.title} image={response.image} date={response.date} location={response.location} price={response.price} />
     })
 }
     </main>
