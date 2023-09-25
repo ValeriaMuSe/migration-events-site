@@ -5,7 +5,7 @@ const EventCard = (props) => {
   const eventDate = new Date(props.date);  
   
   return (
-    <div>
+    <div className='gallery__card'>
       <img src={props.image} alt={props.title}/>
       <div className="gallery__text">
         <div className="event__info">
